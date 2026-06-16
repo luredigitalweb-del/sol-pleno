@@ -7,12 +7,10 @@ import {
   ChevronDown, Phone, Clock, Instagram, Globe, Users, Award,
   FileSearch, PencilRuler, Wrench, LineChart,
 } from "lucide-react";
-import heroVideoAsset from "@/assets/hero-video.mp4.asset.json";
-import logoAsset from "@/assets/solpleno-logo.png.asset.json";
-import solarPanelsAsset from "@/assets/solar-panels-real.png.asset.json";
-import sobreSolplenoAsset from "@/assets/sobre-solpleno.png.asset.json";
-import instagramAsset from "@/assets/instagram-solpleno.png.asset.json";
-import whatsappIconAsset from "@/assets/whatsapp-icon.png.asset.json";
+import heroVideoUrl from "@/assets/hero-video.mp4";
+import logoUrl from "@/assets/solpleno-logo.png";
+import sobreSolplenoUrl from "@/assets/sobre-solpleno.png";
+import whatsappIconUrl from "@/assets/whatsapp-icon.png";
 import { Iphone16Pro } from "@/components/Iphone16Pro";
 import {
   Carousel,
@@ -42,7 +40,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Energia Solar em Fortaleza e Ceará | Solpleno" },
       { property: "og:description", content: "Reduza até 95% da sua conta de energia. 6 anos de mercado no Ceará. Pós-venda dedicada." },
       { property: "og:url", content: "/" },
-      { property: "og:image", content: logoAsset.url },
+      { property: "og:image", content: logoUrl },
     ],
     links: [{ rel: "canonical", href: "/" }],
     scripts: [
@@ -119,7 +117,7 @@ function useReveal() {
 
 function WhatsAppIcon({ className = "w-5 h-5" }: { className?: string }) {
   return (
-    <img src={whatsappIconAsset.url} alt="WhatsApp" className={className} aria-hidden="true" />
+    <img src={whatsappIconUrl} alt="WhatsApp" className={className} aria-hidden="true" />
   );
 }
 
@@ -243,7 +241,7 @@ function SolplenoLanding() {
           >
             <a href="#top" aria-label="Solpleno início" className="flex items-center gap-2 group">
               <img
-                src={logoAsset.url}
+                src={logoUrl}
                 alt="Solpleno"
                 className="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.04]"
               />
@@ -324,7 +322,7 @@ function SolplenoLanding() {
         <video
           className="absolute inset-0 w-full h-full object-cover opacity-60"
           autoPlay muted loop playsInline preload="metadata"
-          src={heroVideoAsset.url}
+          src={heroVideoUrl}
           aria-hidden="true"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy/60 via-navy/75 to-navy/95" aria-hidden="true" />
@@ -718,7 +716,7 @@ function SolplenoLanding() {
                 {/* main image container */}
                 <div className="relative rounded-[2rem] overflow-hidden border border-white/[0.12] shadow-[0_0_80px_-20px_rgba(255,184,0,0.3)]">
                   <img
-                    src={sobreSolplenoAsset.url}
+                    src={sobreSolplenoUrl}
                     alt="Instalação premium de painéis solares em telhado residencial"
                     className="w-full h-auto object-cover"
                     loading="lazy"
