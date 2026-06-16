@@ -10,6 +10,7 @@ import {
 import heroVideoUrl from "@/assets/hero-video.mp4";
 import logoUrl from "@/assets/solpleno-logo.png";
 import sobreSolplenoUrl from "@/assets/sobre-solpleno.png";
+import instagramPerfilUrl from "@/assets/instagram-perfil.png";
 import whatsappIconUrl from "@/assets/whatsapp-icon.png";
 import { Iphone16Pro } from "@/components/Iphone16Pro";
 import {
@@ -960,7 +961,7 @@ function SolplenoLanding() {
               </a>
             </div>
             <div className="reveal order-1 lg:order-2 flex justify-center" style={{ transitionDelay: ".15s" }}>
-              <Iphone16Pro className="w-[260px] sm:w-[300px] lg:w-[340px] h-auto mx-auto max-w-full" src="/__l5e/assets-v1/378d447c-efea-4643-9859-8e8a7747a01e/instagram-perfil.png" />
+              <Iphone16Pro className="w-[260px] sm:w-[300px] lg:w-[340px] h-auto mx-auto max-w-full" src={instagramPerfilUrl} />
             </div>
           </div>
         </div>
