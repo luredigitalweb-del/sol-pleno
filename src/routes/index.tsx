@@ -357,7 +357,7 @@ function SolplenoLanding() {
               6 anos transformando contas de luz no Ceará
             </span>
             <h1 className="mt-5 text-[2rem] sm:text-5xl lg:text-6xl font-extrabold leading-[1.05]">
-              Reduza até <span className="text-solar">95% da sua conta</span> de energia em Fortaleza e em todo o Ceará
+              Produza sua própria energia e <span className="text-solar">liberte-se da conta de luz</span> em Fortaleza e em todo o Ceará
             </h1>
             <p className="mt-4 sm:mt-5 text-sm sm:text-lg text-white/80 max-w-xl">
               Sistemas de energia solar fotovoltaica para residências, comércios, indústrias e usinas de investimento. 6 anos de mercado e pós-venda que não te abandona depois da instalação.
