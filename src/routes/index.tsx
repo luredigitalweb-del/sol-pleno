@@ -338,7 +338,7 @@ function SolplenoLanding() {
           backgroundSize: '40px 40px'
         }} aria-hidden="true" />
 
-        <svg className="absolute top-10 right-[-80px] w-[520px] opacity-30 pointer-events-none" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+        <svg className="hidden sm:block absolute top-10 right-[-80px] w-[520px] opacity-30 pointer-events-none" viewBox="0 0 200 200" fill="none" aria-hidden="true">
           <g stroke="#FFB800" strokeWidth="1">
             <circle cx="100" cy="100" r="40" />
             <g strokeLinecap="round">
