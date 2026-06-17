@@ -201,7 +201,7 @@ function SolplenoLanding() {
       return;
     }
     setHint({ msg: "Simulação concluída. Valores aproximados.", tone: "success" });
-    const mensal = raw * 0.9;
+    const mensal = raw * 0.85;
     const anual = mensal * 12;
     const total = anual * 25;
     setResult({ mensal, anual, total });
@@ -421,7 +421,7 @@ function SolplenoLanding() {
                     <p className="text-[9px] font-bold text-[#10B981] tracking-wider uppercase">Depois com Solpleno</p>
                     <div className="flex items-baseline gap-1 mt-1 whitespace-nowrap">
                       <span className="text-sm font-bold text-emerald-700">R$</span>
-                      <span className="text-[24px] font-extrabold text-emerald-800 tracking-tight leading-none">38,00</span>
+                      <span className="text-[24px] font-extrabold text-emerald-800 tracking-tight leading-none">112,50</span>
                     </div>
                     <div className="mt-3 flex items-center gap-2 bg-emerald-500/10 self-start px-2.5 py-1 rounded-full">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse" />
@@ -801,7 +801,7 @@ function SolplenoLanding() {
           <div className="reveal text-center max-w-2xl mx-auto">
             <p className="text-solar-600 font-semibold uppercase tracking-widest text-xs">Simulador rápido</p>
             <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy sim-shimmer">Descubra quanto você economiza em 25 anos.</h2>
-            <p className="mt-4 text-sub text-lg">Estimativa baseada em 90% de economia média sobre o valor mensal da sua conta.</p>
+            <p className="mt-4 text-sub text-lg">Estimativa baseada em 85% de economia média sobre o valor mensal da sua conta.</p>
           </div>
 
           <div className="reveal mt-10 sim-card rounded-[2rem] p-6 sm:p-10">
