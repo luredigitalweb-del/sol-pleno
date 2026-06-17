@@ -36,10 +36,10 @@ function GoogleIcon({ className = "" }: { className?: string }) {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Energia Solar em Fortaleza e Ceará | Solpleno — Economize até 95%" },
+      { title: "Energia Solar em Fortaleza e Ceará | Solpleno — Economize até 85%" },
       { name: "description", content: "Empresa de energia solar com 6 anos no Ceará. Sistemas para residências, comércios, indústrias e usinas de investimento. Pós-venda dedicada. Solicite seu orçamento." },
       { property: "og:title", content: "Energia Solar em Fortaleza e Ceará | Solpleno" },
-      { property: "og:description", content: "Reduza até 95% da sua conta de energia. 6 anos de mercado no Ceará. Pós-venda dedicada." },
+      { property: "og:description", content: "Reduza até 85% da sua conta de energia. 6 anos de mercado no Ceará. Pós-venda dedicada." },
       { property: "og:url", content: "/" },
       { property: "og:image", content: logoUrl },
     ],
@@ -51,7 +51,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           name: "Solpleno Energia Solar",
-          telephone: "+5585991811765",
+          telephone: "+5585992266066",
           address: { "@type": "PostalAddress", addressLocality: "Fortaleza", addressRegion: "CE", postalCode: "60426-000", addressCountry: "BR" },
           areaServed: "Ceará",
           openingHours: "Mo-Fr 08:00-18:00",
@@ -64,7 +64,7 @@ export const Route = createFileRoute("/")({
   component: SolplenoLanding,
 });
 
-const PHONE = "5585991811765";
+const PHONE = "5585992266066";
 const waUrl = (text: string) =>
   `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
 
@@ -425,7 +425,7 @@ function SolplenoLanding() {
                     </div>
                     <div className="mt-3 flex items-center gap-2 bg-emerald-500/10 self-start px-2.5 py-1 rounded-full">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse" />
-                      <span className="text-[9px] font-bold text-emerald-800">Economia de até 95%</span>
+                      <span className="text-[9px] font-bold text-emerald-800">Economia de até 85%</span>
                     </div>
                   </div>
 
@@ -439,7 +439,7 @@ function SolplenoLanding() {
             </Iphone16Pro>
             <div className="hero-card-rise hidden sm:flex absolute left-4 top-10 bg-white text-navy rounded-2xl shadow-soft p-3 pr-4 items-center gap-2">
               <span className="grid place-items-center w-9 h-9 rounded-xl bg-solar text-navy"><TrendingDown className="w-5 h-5" /></span>
-              <div><p className="text-[10px] text-sub leading-none">economia</p><p className="text-sm font-extrabold leading-tight">-94,9%</p></div>
+              <div><p className="text-[10px] text-sub leading-none">economia</p><p className="text-sm font-extrabold leading-tight">-85%</p></div>
             </div>
             <div className="hero-card-rise hidden sm:flex absolute right-4 bottom-20 bg-white text-navy rounded-2xl shadow-soft p-3 pr-4 items-center gap-2">
               <span className="grid place-items-center w-9 h-9 rounded-xl bg-leaf text-white"><Leaf className="w-5 h-5" /></span>
@@ -579,7 +579,7 @@ function SolplenoLanding() {
 
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
-              { icon: Home, badge: "bg-solar/20 text-solar", title: "Energia Solar Residencial", sub: "Para quem tem conta acima de R$ 500/mês.", items: ["Até 95% de economia","Valoriza o imóvel","Financiamento facilitado"], wa: "Olá! Tenho interesse em energia solar residencial.", sec: "card-residencial" },
+              { icon: Home, badge: "bg-solar/20 text-solar", title: "Energia Solar Residencial", sub: "Para quem tem conta acima de R$ 500/mês.", items: ["Até 85% de economia","Valoriza o imóvel","Financiamento facilitado"], wa: "Olá! Tenho interesse em energia solar residencial.", sec: "card-residencial" },
               { icon: Store, badge: "bg-leaf/20 text-leaf", title: "Energia Solar Comercial", sub: "Lojas, escritórios, clínicas e franquias.", items: ["Redução de custo operacional","ROI em média de 3 a 5 anos","Abate imposto"], wa: "Olá! Quero energia solar para meu comércio.", sec: "card-comercial" },
               { icon: Factory, badge: "bg-white/15 text-white", title: "Energia Solar Industrial", sub: "Indústrias de médio e grande porte.", items: ["Previsibilidade orçamentária","Abate ICMS","Projeto turn-key"], wa: "Olá! Quero saber sobre energia solar industrial.", sec: "card-industrial" },
             ].map((c, i) => (
@@ -998,7 +998,7 @@ function SolplenoLanding() {
           <div>
             <p className="text-sm font-bold text-white uppercase tracking-wider">Contato</p>
             <ul className="mt-4 space-y-2 text-sm">
-              <li className="flex items-start gap-2"><Phone className="w-4 h-4 mt-0.5 text-solar" /> (85) 99181-1765</li>
+              <li className="flex items-start gap-2"><Phone className="w-4 h-4 mt-0.5 text-solar" /> (85) 99226-6066</li>
               <li className="flex items-start gap-2"><Clock className="w-4 h-4 mt-0.5 text-solar" /> Seg–Sex · 8h às 18h</li>
               <li className="flex items-start gap-2"><MapPin className="w-4 h-4 mt-0.5 text-solar" /> Fortaleza/CE · CEP 60426-000</li>
             </ul>
